@@ -1,0 +1,96 @@
+.rooms {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  overflow: hidden;
+  width: 89%;
+  height: 90px;
+  background: var(--white1);
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(233, 230, 230);
+  box-shadow: 0 0 10px rgba(233, 230, 230);
+  .title {
+    .left {
+        display: flex;
+        
+        margin-left: 10px;
+      img {
+        cursor: pointer;
+        width: 32px;
+        height: 32px;
+      }
+      p{
+          margin:5px;
+          font-weight: 600;
+      }
+      .exc{
+          margin-top: 7px;
+          width:19px;
+          height:19px;
+          background-color: rgb(173, 173, 173);
+          border-radius:50%;
+          text-align:center;
+          color:white;
+          font-size: 16px;
+      }
+    }
+    .right{
+        position:absolute;
+        left:520px;
+        top:380px;
+        
+        a{
+            color:Blue;
+        }
+    }
+  }
+
+  .profiles{
+      display: flex;
+      align-items: center;
+  .rounded-profile{
+
+    .span{
+        position:absolute;
+        top:437px;
+        left:124px;
+        width:16px;height:16px;
+        border:1px solid white;
+        border-radius:50%;
+        background-color: rgb(54, 240, 54);
+    }
+    .plus{
+        position:absolute;
+        z-index:1;
+        top:420px;
+        left:13px;
+        width:22px;height:22px;
+    }
+    .darkSpan{
+        position: absolute;
+        width:43px;
+        height:43px;
+        top:410px;
+        left:17px;
+        opacity: .7;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .active{
+        opacity: 0.2;
+    }
+       
+      img{
+          width:45px;
+          height:45px;
+          border-radius: 50%;
+          margin:0 15px;
+          background-size: cover;
+      }
+  }
+}
+}
+

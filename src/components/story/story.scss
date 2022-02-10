@@ -1,0 +1,76 @@
+.flexBox{
+    display:flex;
+.story{
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:135px;
+    height: 200px;
+    box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    margin-right: 25px;
+    transition: transform 100ms ease-in;
+    cursor:pointer;
+    
+    &:hover{
+        transform: scale(1.07);
+    }
+
+    
+
+    h4{
+     position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    }
+   
+    .story-avatar {
+        margin: 10px;
+        border: 3px solid rgb(38, 107, 255);
+    }
+    
+}
+.storyMe{
+    position: relative;
+    background-position:top;
+    background-size:135px;
+    background-repeat: no-repeat;
+    width:135px;
+    height: 200px;
+    box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    margin-right: 25px;
+    transition: transform 100ms ease-in;
+    background-color: white;
+    cursor:pointer;
+    
+    &:hover{
+        transform: scale(1.07);
+    }
+    h3{
+    position: absolute;
+    top:145px;
+    font-size: 15px;
+    bottom: 20px;
+    left: 23px;
+    color: black;
+    span{
+        padding-left: 10px;
+    }
+    }
+
+    .plus{
+        position: relative;
+        background-color:rgb(58, 120, 255);
+        border:3px solid white;
+        border-radius:50px;
+        width:33px;
+        top:117px;
+        left:45px;
+    }
+}
+}
+
+

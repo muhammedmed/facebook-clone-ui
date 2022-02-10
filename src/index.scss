@@ -1,0 +1,26 @@
+//Variables
+
+:root {
+  --background: #f0f2f5;
+  --white1: #ffffff;
+  --white2: #dde2e7;
+  --white3: #4e4f5080;
+  --white4: #ceced6;
+  --dark1: #606264;
+  --dark2: #0f0d0d;
+  --blue1: #297be5;
+  --scrollBar: #656768;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+  text-decoration: none;
+}
+
+
+body {
+  background: var(--background);
+}
